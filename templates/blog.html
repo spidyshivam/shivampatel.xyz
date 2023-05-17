@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title" style="text-align: center;">
+  {{ section.title }}
+</h1>
+<ul>
+  <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->  
+  {% for page in section.pages %}
+  <h2><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h2>
+  <small class="subtitle">{{ page.date }}</small>
+  <span style="font-size: 90%;">{{ page.summary | safe }}</span>
+  <a href="{{ page.permalink | safe }}" id="cont-read">continue to read . . .</a>
+  <hr class="divider">
+  {% endfor %}
+</ul>
+{% endblock content %}

@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu+Mono&display=swap');
+@font-face {
+    font-family: 'FF Tisa';
+    src: url('../fonts/TisaSansPro-Regular.woff');
+    font-weight: 300;
+    font-style: normal;                                                                                                   }
+@font-face {
+    font-family: 'Determination Sans';
+    src: url("../fonts/DeterminationSansWeb.woff");
+}
+@font-face {
+    font-family: 'Determination Mono';
+    src: url("../fonts/DeterminationMonoWeb.woff");
+}
+@font-face {
+    font-family: 'Among Us Filled';
+    src: url("../fonts/AmongUs-Regular.woff");
+}
+body{
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'FF Tisa';
+    line-height: 1.6em;
+}
+
+.container {
+    background-color: rgba(52, 65, 74, 0.8);
+    backdrop-filter: blur(5px);
+    color: white;
+}
+
+.content {
+    width: 70%;
+}
+
+.aside{
+    width: 30%;
+    height: fit-content;
+    padding: 5px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+}
+
+#main-title{
+    font-size: 300% !important;
+    font-family: 'Determination Sans';
+}
+
+/* article { */
+/*     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+/*     background-color: rgba(27, 29, 33, 0.8); */
+/* } */
+
+/* article .content{ */
+/*     margin: auto; */
+
+/* } */
+
+/* article h3 { */
+/*     background-color: rgba(55, 63, 76, 1); */
+/*     padding: 4px; */
+/* } */
+
+
+
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgba(27, 29, 33, 0.8);
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav {
+    padding: 10px;
+    display: flex;
+    background-color: rgba(27, 29, 33, 1);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.nav a{
+    margin-left: 8%;
+}
+
+footer{
+    padding: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;    
+    text-align: center;
+    background-color: rgba(27, 29, 33, 1);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgba(27, 29, 33, 0.8);
+}
+
+.lr-pad{
+    padding-left: 3%;
+    padding-right: 3%;    
+}
+
+#myVideo {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+
+p{
+    background-color: rgba(27, 29, 33, 1);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+#blog pre{
+    padding: 10px;
+    font-family: "Ubuntu Mono", monospace;
+    border-radius: 10px;    
+}
+
+.divider {
+    border-color: #8feef5;
+}
+
+.aside blockquote{
+    font-size: 80%;
+    background-color: rgba(27, 29, 33, 0.8);
+    border-radius: 10px;
+    padding: 4px;
+    font-style: italic;
+}
+blockquote{
+    font-style: italic;
+}
+#blog{
+}
+
+#blog img{
+    max-width: 100%;
+}
+
+#blog a{
+    color: #8feef5;
+}
+
+#blog a:hover{
+    font-style: italic;
+    color: #8feef5;
+    text-decoration: underline;
+}
+
+#blog ol{
+    background-color: rgba(27, 29, 33, 0.8);
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;    
+}
+
+.main-subtitle {
+    position: relative;
+    color: #898989;
+    top: -20px;
+    font-size: 120%;
+    font-style: italic;
+}
+
+.intro-article {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.intro-article p{
+    width: 45%;
+}
+
+.intro-article img{
+    width: 45%;
+}
+
+table {
+    font-size: 90%;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: #191c1f;
+    padding: 8px;
+    width: 600px;
+}
+
+th {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+td, th{
+    padding: 5px;
+    border: 1px solid #898989;
+}
+
+.div {
+	width: 80%;
+    border-color: #8feef5;
+}
+
+h1 {
+    font-family: "Determination Sans";
+}
+
+.ascii {
+    font-family: "Tahoma" !important;
+    text-align: initial !important;
+    margin-left: 25%;
+    font-weight: bold;
+}

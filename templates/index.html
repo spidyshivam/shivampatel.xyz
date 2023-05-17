@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block content %}
+
+<article class="intro-article">
+   <img width="400px" src="/hello-there.gif"/>
+  <p>Hello there, my name is Shivam Patel . Welcome to my mini dimension of the internet</p>
+</article>
+<article>
+  <h4>Random gifs</h4>
+  <img  width="350px" src="/images/random/hollowknight.gif"/>
+  <img  width="350px" src="/images/random/starwars.gif"/>
+</article>
+<article>
+  <h4>Recent Blogs</h4>
+  <ul>
+    {% set posts = get_section(path="./blog/_index.md") %}
+    {% for page in posts.pages | slice(end=3) %}
+    <li>[{{ page.date }}] <a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+    {% endfor %}
+  </ul>
+</article>
+<article>
+  <h4>Games Currently Playing</h4>
+  <ul>
+    <li>Dishonored 2</li>
+    <li>Divine Divinity</li>
+    <li>Mortal Shell</li>
+    <li>Death Stranding</li>
+    <li>Fallout: New Vegas</li>
+    <li>Nehrim: At Fate's Edge</li>
+    <li>Deus Ex</li>
+  </ul>
+</article>
+<br>
+<article>
+  <a href="https://shivampatel.123guestbook.com/" target="_blank">
+    <img alt="guestbook" src="/images/guestbook.gif" width="100px">
+    <br>
+    Sign my Guestbook!
+  </a>
+</article>
+<article>
+  <div class="content">
+    </div>
+</article>
+{% endblock content %}
