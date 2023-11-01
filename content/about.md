@@ -11,8 +11,8 @@ I am a 20 year old guy, from UP, India, studying Computer Science. Also a video 
 |----------------|--------------------------------------------------------------|
 | Game           | Witcher 3, Dark Souls, RDR2                                  |
 | Universe       | The Elder Scrolls, Fallout                                   |
-| Character      | Geralt of Rivia, Arthur Morgon                               |
-| Anime          | Attack on Titan, Demon Slayer                                |
+| Character      | Geralt of Rivia, Arthur Morgon, Monkey D. Luffy              |
+| Anime          | One Piece, Attack on Titan, Demon Slayer                     |
 | TV Series      | Mr Robot, Silicon Valley, GOT, HOTD                          |
 | Book           | The Last Wish                                                |
 | Movie          | Interstellar, The Lord of the Rings, The Dark Knight Trilogy |
