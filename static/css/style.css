@@ -123,7 +123,7 @@ blockquote {
 }
 
 .intro-article img{
-  width: 15%;
+  min-width: 15%;
 }
 
 .intro-article p{
