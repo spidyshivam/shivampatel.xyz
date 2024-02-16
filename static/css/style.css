@@ -159,6 +159,12 @@ td, th{
     border: 1px solid #898989;
 }
 
+/* Blog Page */
+
+ul{
+  padding: 0;
+}
+
 /* Media Queries */
 @media only screen and (max-width: 600px){
   /* Base CSS */
