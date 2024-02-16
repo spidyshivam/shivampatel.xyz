@@ -171,9 +171,6 @@ ul{
 @media only screen and (max-width: 600px){
   /* Base CSS */
 
-  #avatar {
-    min-width: 25%;
-  }
 
   .container{
     width: 100%;
