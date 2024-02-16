@@ -172,7 +172,7 @@ ul{
   /* Base CSS */
 
   #avatar {
-    width: 25%;
+    min-width: 25%;
   }
 
   .container{
