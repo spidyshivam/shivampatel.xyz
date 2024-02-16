@@ -167,10 +167,17 @@ ul{
   margin-left: 2rem;
 }
 
+img {
+  width: 100%;
+}
+
 /* Media Queries */
 @media only screen and (max-width: 600px){
   /* Base CSS */
 
+  #avatar {
+    width: 25%;
+  }
 
   .container{
     width: 100%;
