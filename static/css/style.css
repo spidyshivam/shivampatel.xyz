@@ -62,8 +62,9 @@ body{
 }
 
 #main-subtitle{
-  color: #898989;;
+  color: #898989;
   font-style: italic;
+  font-size: 0.9rem;
 }
 
 #avatar {
