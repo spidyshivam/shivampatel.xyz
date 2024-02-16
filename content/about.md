@@ -4,19 +4,19 @@ page_template = "page.html"
 +++
 
 
-I am a 21 year old guy, from UP, India, studying Computer Science. Also a video game enthusiast. I like this world.
+I am a 20 year old guy, from UP, India, studying Computer Science. Also a video game enthusiast.
 
 
 | **Favourite?** | **Answer**                                                   |
 |----------------|--------------------------------------------------------------|
 | Game           | Witcher 3, Dark Souls, RDR2                                  |
-| Universe       | The Elder Scrolls, Fallout, Mass Effect                      |
+| Universe       | The Elder Scrolls, Fallout                                   |
 | Character      | Geralt of Rivia, Arthur Morgon, Monkey D. Luffy              |
 | Anime          | One Piece, Attack on Titan, Demon Slayer                     |
 | TV Series      | Mr Robot, Silicon Valley, GOT, HOTD                          |
 | Book           | The Last Wish                                                |
 | Movie          | Interstellar, The Lord of the Rings, The Dark Knight Trilogy |
-| eSports        | CS2, Age of Empires 2, Apex Legends                         |
+| eSports        | CSGO, Age of Empires 2, Apex Legends                         |
 
 **Other Likes -**
 - something close to the [heart ❤️](https://www.youtube.com/watch?v=dQw4w9WgXcQ)

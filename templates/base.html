@@ -1,75 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  {% if page.title %}
-    <title>{{ page.title }}</title>
-  {% else %}
-    <title>Shivam's Website</title>
-  {% endif %}
-  <meta name="description" content="Shivam Patel's Personal Website">
-  <meta name="author" content="Shivam Patel">
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="icon" type="image/png" href="/favicon.ico">
+	<meta charset="utf-8">
+	{% if page.title %}
+	<title>{{ page.title }}</title>
+	{% else %}
+	<title>Shivam's Website</title>
+	{% endif %}
+	<meta name="description" content="Shivam Patel's Personal Website">
+	<meta name="author" content="Shivam Patel">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="icon" type="image/png" href="/favicon.ico">
 </head>
+
 <body>
-  <video autoplay muted loop id="myVideo">
-    <source src="https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/292030/1fd28b25668126b0a14d3955906945b941571e44.webm" type="video/mp4">
-  </video>
-  <div class="container">
-    <nav class="nav shadow lr-pad">
-      <a href="/">Home</a>
-      <a href="/about">About</a>
-      <a href="/blog">Blog</a>
-      <a href="https://github.com/spidyshivam/" target=”_blank”>Git</a>
-      <a href="/contact">Contact</a>
-    </nav>    
-    <div class="header">
-      <figure id="avatar">
-	<img alt="" width="180px" src="/images/avatar.jpg">
-      </figure>
-      <section>
-	<h1 id="main-title">Shivam Patel</h1>
-	<small class="main-subtitle">Praise the sun!</small>
-      </section>
-    </div>
-    
-    <div class="main lr-pad">
-      <div class="content">
-	<hr class="divider"/>    
-	{% block content %}{% endblock %}
-      </div>
-      <div class="aside">
-	<img alt="" width="200px" src="/images/geralt.gif"/><br>
-	<!--<img alt="" width="300px" src="https://i.pinimg.com/originals/00/b4/a4/00b4a4b637f000b61a5c93c94b11d9ae.jpg"/><br>-->
-	<blockquote>
-	  “Take a gamble that love exists and do a loving act.” 
-	</blockquote>
-	<hr class="div">
-  <h4>~ play Nameless Song</h4>
-  <audio controls >
-    <source src="/namelesssong.mp3" type="audio/mpeg">
-  </audio>
-  <pre class="ascii">
-    ..... (¯`v´¯)♥
-    .......•.¸.•´
-    ....¸.•´
-    ... (
-    ☻/
-    /▌♥♥
-    / \ ♥♥
-   </pre> 
-  <hr class="div"/>
-  <h4>cool knight artorias</h4>
-  <img alt="" width="300px" src="/images/artorias1.gif"/><br>
-  <img alt="" width="300px" src="/images/artorias2.gif"/><br>
-  <p><i>best viewed on desktop at 1920x1080 resolution (for
-  now)</i></p>
-      </div>
-    </div>
-    <footer class="shadow">
-      &copy Shivam Patel. 2022-2023
-    </footer>
-  </div>
+	<video autoplay muted loop id="myVideo">
+		<source
+			src="https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/292030/1fd28b25668126b0a14d3955906945b941571e44.webm"
+			type="video/mp4">
+	</video>
+	<div class="container">
+		<nav class="navbar">
+			<a href="/">Home</a>
+			<a href="/about">About</a>
+			<a href="/blog">Blog</a>
+			<a href="https://github.com/spidyshivam/">Git</a>
+			<a href="/contact">Contact</a>
+		</nav>
+		<div class="header">
+			<img id="avatar" alt="" src="https://spidyshivam.xyz/images/avatar.jpg">
+			<section>
+				<h1 id="main-title">Shivam Patel</h1>
+				<small id="main-subtitle">Praise the sun!</small>
+			</section>
+		</div>
+		<div class="main">
+			<div class="content">
+				<hr class="divider" />
+				{% block content %}{% endblock %}
+			</div>
+			<div class="aside">
+				<hr class="mobile-divider">
+				<img alt="" width="200px" src="https://spidyshivam.xyz/images/geralt.gif" /><br>
+				<!--<img alt="" width="300px" src="https://i.pinimg.com/originals/00/b4/a4/00b4a4b637f000b61a5c93c94b11d9ae.jpg"/><br>-->
+				<blockquote>
+					“Take a gamble that love exists and do a loving act.”
+				</blockquote>
+				<hr class="divider">
+				<h4>~ play Nameless Song</h4>
+				<audio controls>
+					<source src="/namelesssong.mp3" type="audio/mpeg">
+				</audio>
+			</div>
+		</div>
+		<div class="footer">
+			&copy Shivam Patel. 2024-2025
+		</div>
+	</div>
 </body>
 </html>

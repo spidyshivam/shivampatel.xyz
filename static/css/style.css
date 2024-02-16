@@ -1,115 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu+Mono&display=swap');
+/* Fonts */
 @font-face {
     font-family: 'FF Tisa';
     src: url('../fonts/TisaSansPro-Regular.woff');
     font-weight: 300;
-    font-style: normal;                                                                                                   }
-@font-face {
-    font-family: 'Determination Sans';
-    src: url("../fonts/DeterminationSansWeb.woff");
+    font-style: normal;
 }
-@font-face {
-    font-family: 'Determination Mono';
-    src: url("../fonts/DeterminationMonoWeb.woff");
-}
-@font-face {
-    font-family: 'Among Us Filled';
-    src: url("../fonts/AmongUs-Regular.woff");
-}
-body{
-    max-width: 1200px;
-    margin: auto;
-    font-family: 'FF Tisa';
-    line-height: 1.6em;
-}
-
-.container {
-    background-color: rgba(52, 65, 74, 0.8);
-    backdrop-filter: blur(5px);
-    color: white;
-}
-
-.content {
-    width: 70%;
-}
-
-.aside{
-    width: 30%;
-    height: fit-content;
-    padding: 5px;
-    text-align: center;
-}
-
-.header {
-    display: flex;
-}
-
-#main-title{
-    font-size: 300% !important;
-    font-family: 'Determination Sans';
-}
-
-/* article { */
-/*     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-/*     background-color: rgba(27, 29, 33, 0.8); */
-/* } */
-
-/* article .content{ */
-/*     margin: auto; */
-
-/* } */
-
-/* article h3 { */
-/*     background-color: rgba(55, 63, 76, 1); */
-/*     padding: 4px; */
-/* } */
-
-
-
-.shadow{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background-color: rgba(27, 29, 33, 0.8);
-}
-
-
-a{
-    color: white;
-    text-decoration: none;
-}
-
-.main {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.nav {
-    padding: 10px;
-    display: flex;
-    background-color: rgba(27, 29, 33, 1);
-    color: white;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.nav a{
-    margin-left: 8%;
-}
-
-footer{
-    padding: 10px;
-    margin-top: 5%;
-    margin-bottom: 5%;    
-    text-align: center;
-    background-color: rgba(27, 29, 33, 1);
-    color: white;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background-color: rgba(27, 29, 33, 0.8);
-}
-
-.lr-pad{
-    padding-left: 3%;
-    padding-right: 3%;    
-}
-
+/* Base CSS */
 #myVideo {
   position: fixed;
   min-width: 100%;
@@ -118,92 +14,143 @@ footer{
   bottom: 0;
 }
 
-
-p{
-    background-color: rgba(27, 29, 33, 1);
-    padding: 10px;
-    border-radius: 10px;
+body {
+  margin: 0;
 }
 
+.container {
+  font-family: 'FF Tisa';
+	display: grid;
+  width: 63%;
+  margin: auto;
+  background-color: rgba(52, 65, 74, 0.8);
+  backdrop-filter: blur(5px);
+  margin-bottom: 4rem;
+}
 
-#blog pre{
-    padding: 10px;
-    font-family: "Ubuntu Mono", monospace;
-    border-radius: 10px;    
+.navbar{
+  background-color: rgba(27, 29, 33, 1);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  overflow: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar a{
+  padding: 0.8rem 1rem 0.8rem;
+  display: inline-block;
+  font-size: 1.1rem;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+body{
+  color: white;
+}
+
+.header {
+  display: flex;
+}
+
+#main-title{
+  margin-top: 10%;
+  margin-bottom: -3%;
+  font-size: 2.5rem;
+}
+
+#main-subtitle{
+  color: #898989;;
+  font-style: italic;
+}
+
+#avatar {
+  margin: 1rem 2rem 1rem;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  line-height: 1.6rem;
+}
+
+.content {
+  margin: 1rem 2rem 1rem;
+}
+
+.footer {
+  padding: 0.9rem;
+  background-color: rgba(27, 29, 33, 1);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+  margin-top: 2rem;
 }
 
 .divider {
-    border-color: #8feef5;
+  border-color: #8feef5;
 }
 
-.aside blockquote{
-    font-size: 80%;
-    background-color: rgba(27, 29, 33, 0.8);
-    border-radius: 10px;
-    padding: 4px;
-    font-style: italic;
-}
-blockquote{
-    font-style: italic;
-}
-#blog{
+p, blockquote {
+  background-color: rgba(27, 29, 33, 1);
+  padding: 0.75rem;
+  border-radius: 0.75rem;
 }
 
-#blog img{
-    max-width: 100%;
+.blog-title{
+    text-align: center;
 }
 
-#blog a{
-    color: #8feef5;
+/* Aside  */
+.mobile-divider {
+  display: none;
 }
 
-#blog a:hover{
-    font-style: italic;
-    color: #8feef5;
-    text-decoration: underline;
+.aside {
+  margin: 1rem 2rem 1rem;
+  text-align: center;
 }
 
-#blog ol{
-    background-color: rgba(27, 29, 33, 0.8);
-    border-radius: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;    
+blockquote {
+  font-style: italic;
+  font-size: 0.8rem;
 }
 
-.main-subtitle {
-    position: relative;
-    color: #898989;
-    top: -20px;
-    font-size: 120%;
-    font-style: italic;
-}
-
+/* Index Page */
 .intro-article {
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
-}
-
-.intro-article p{
-    width: 45%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .intro-article img{
-    width: 20%;
+  width: 15%;
 }
+
+.intro-article p{
+  width: 45%;
+}
+
+.guestbook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* About Page */
 
 table {
-    font-size: 90%;
-    margin: auto;
-    text-align: center;
-    border-collapse: collapse;
-    background-color: #191c1f;
-    padding: 8px;
-    width: 600px;
+  font-size: 1rem;
+  margin: auto;
+  text-align: center;
+  border-collapse: collapse;
+  background-color: #191c1f;
+  padding: 2rem;
+  width: 75%;
 }
-
 th {
-    font-size: 120%;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -212,18 +159,49 @@ td, th{
     border: 1px solid #898989;
 }
 
-.div {
-	width: 80%;
+/* Media Queries */
+@media only screen and (max-width: 600px){
+  /* Base CSS */
+
+  #avatar {
+    width: 25%;
+  }
+
+  .container{
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .main {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .mobile-divider {
     border-color: #8feef5;
-}
+    display: block;
+  }
 
-h1 {
-    font-family: "Determination Sans";
-}
+  /* Index Page */
+  .intro-article img{
+    width: 25%;
+  }
 
-.ascii {
-    font-family: "Tahoma" !important;
-    text-align: initial !important;
-    margin-left: 25%;
-    font-weight: bold;
+  .intro-article p{
+    width: 100%;
+  }
+
+  /* About Page */
+  table {
+    width: 100%;
+  }
+
+  /* Removing Video Background */
+  video {
+    display: none;
+  }
+
+  body{
+    background-color: #335f89;
+  }
 }
