@@ -163,6 +163,7 @@ td, th{
 
 ul{
   padding: 0;
+  margin-left: 2rem;
 }
 
 /* Media Queries */
