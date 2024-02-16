@@ -34,6 +34,7 @@ body {
   overflow: auto;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .navbar a{
@@ -97,11 +98,6 @@ p, blockquote {
   background-color: rgba(27, 29, 33, 1);
   padding: 0.75rem;
   border-radius: 0.75rem;
-}
-
-.blog-title{
-    text-align: center;
-    line-height: 2.4rem;
 }
 
 /* Aside  */
@@ -170,6 +166,16 @@ ul{
 
 #blog img {
   width: 100%;
+}
+
+.blog-title{
+    text-align: center;
+    line-height: 2.4rem;
+}
+
+#blog .subtitle{
+  display: block;
+  text-align: center;
 }
 
 /* Media Queries */
