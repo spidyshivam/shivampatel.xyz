@@ -124,7 +124,7 @@ blockquote {
 
 .intro-article img{
   width: 15%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .intro-article p{
