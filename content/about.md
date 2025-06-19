@@ -4,7 +4,7 @@ page_template = "page.html"
 +++
 
 
-I am a 20 year old guy, from UP, India, studying Computer Science. Also a video game enthusiast.
+I am a 23 year old guy, from UP, India, studying Computer Science. Also a video game enthusiast.
 
 
 | **Favourite?** | **Answer**                                                   |
