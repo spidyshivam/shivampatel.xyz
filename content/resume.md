@@ -3,6 +3,8 @@ title: "Shivam Patel - Resume"
 description: "Resume of Shivam Patel"
 ---
 
+Quick Audio Summary - {{ audiosummary() }}
+
 # 🚀 Shivam Patel  
 
 ✉️ **Email:** [shivampatel887@gmail.com](mailto:shivampatel887@gmail.com)  
@@ -26,6 +28,16 @@ description: "Resume of Shivam Patel"
 
 ## 🏗️ PROJECTS  
 
+### 🧘 Yoga Pose Correction System | Flask, MediaPipe, React, AI/ML
+🗕️ **August 2024 - March 2025** | **[GitHub Link](https://github.com/Yoga-Pose-Correction-System)**
+
+* Developed an **AI-based yoga pose correction tool** using **MediaPipe** for real-time pose analysis, providing **instant feedback** on posture accuracy and improvement suggestions, enhancing practice safety by **80%**.
+* Built a **React-based frontend** with **OAuth authentication**, delivering a seamless and secure user experience.
+* Integrated **AI-powered diet planner and exercise recommender**, improving user engagement and **personalized wellness suggestions by 75%**.
+* Enabled **live webcam-based posture tracking** via Flask API and WebSockets, reducing form correction time by **90%**.
+* Designed a **modular and scalable architecture**, making it easy to add more yoga poses and health tracking features in the future.
+
+
 ### 🎭 FaceLink | Django, WebSockets
 📅 **June 2024 - July 2024**  | **[GitHub Link](https://github.com/spidyshivam/facelink)**
 - Developed **FaceLink**, a Django-based **social media platform** with real-time chat & notifications, boosting user engagement by **85%**.  
@@ -34,11 +46,7 @@ description: "Resume of Shivam Patel"
 - Designed interactive features like **post sharing, reactions, and comments**, leading to a **75% increase** in daily active users.  
 - Created a **responsive user dashboard** for content creation & profile management, improving user satisfaction by **88%**.  
 
-### 🎓 Student Management System | Django  
-📅 **November 2023 - February 2024** | **[GitHub Link](https://github.com/spidyshivam/student-management-system)**
-- Built a **Student Management System** with features for student registration, attendance tracking, and performance monitoring, **improving admin efficiency by 72%**.  
-- Designed a **user-friendly UI**, increasing engagement & task completion speed by **70%**.  
-- Implemented **secure & scalable workflows**, leading to an **85% improvement** in user satisfaction.  
+ 
 
 ### 🍳 Cook50 | Flask 
 📅 **March 2023 - August 2023**  | **[GitHub Link](https://github.com/spidyshivam/cook50)** 
